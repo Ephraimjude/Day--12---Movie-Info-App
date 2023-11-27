@@ -18,7 +18,7 @@ async function searchMovie() {
         return;
     }
 
-    const apiKey = "a34e58bd";
+    const apiKey = "a34e5****";
     const url = `http://www.omdbapi.com/?t=${encodeURIComponent(movieName)}&apikey=${apiKey}`;
 
     try {
